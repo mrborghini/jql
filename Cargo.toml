@@ -1,0 +1,18 @@
+[package]
+name = "jql"
+edition = "2024"
+version = "0.1.0"
+
+[workspace]
+members = [
+    "lib/language",
+    "lib/server",
+]
+
+[workspace.package]
+edition = "2024"
+version = "0.1.0"
+
+[dependencies]
+language = { path = "./lib/language" }
+server = { path = "./lib/server" }
