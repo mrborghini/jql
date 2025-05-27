@@ -1,3 +1,8 @@
+# Jan's Query Language
+
+Todo syntax like this:
+
+```bash
 table users {
     id int auto;
     age int required;
@@ -7,3 +12,4 @@ table users {
 }
 
 add_users(10, "man", description="Hello")
+```

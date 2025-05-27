@@ -4,6 +4,6 @@ table users {
     name string required;
     email string;
     description string;
-};
+}
 
 add_users(10, "man", description="Hello")
